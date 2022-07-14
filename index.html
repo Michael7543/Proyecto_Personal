@@ -8,23 +8,25 @@
   <link rel="stylesheet" href="../css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
   </script>
+  
   </body>
 
-  <title>Document</title>
+  <title>Proyecto Personal</title>
 
 </head>
 
 <body id="body">
   <header id="header">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
-        <a class="navbar-brand m-0 p-0" href="#">
+        <a class="navbar-brand m-0 p-0" href="">
           <img id="logo" src="https://lun-us.icons8.com/a/RQydgQtXEkux6mOlqE9pRQ/W3VYvAf0lkacnM5sB4nQ9g/logo.png"
             alt="">
-          Motorcycles
+          Motorcycles Ecuador
 
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -34,14 +36,14 @@
         <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
             <li class="nav-item me-3">
-              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active" href="index.html">Inicio</a>
             </li>
             <li class="nav-item me-4">
-              <a class="nav-link" href="#">Catalogo</a>
+              <a class="nav-link" href="#productos">Catalogo</a>
             </li>
 
             <li class="nav-item me-4">
-              <a class="nav-link" href="#">Contactanos</a>
+              <a class="nav-link" href="#evento-marca">Eventos</a>
             </li>
           </ul>
 
@@ -54,23 +56,32 @@
   <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/src/26.jpg" class="d-block w-100" alt="...">
+        <img src="/src/26.jpg" class="carrusel_img w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="/src/27.jpg" class="d-block w-100" alt="...">
+        <img src="/src/27.jpg" class="carrusel_img w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/src/25.jpg" class="carrusel_img w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/src/imagen(30).jpg" class="carrusel_img w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/src/imagen(40).png" class="carrusel_img w-100" alt="...">
       </div>
     </div>
-    <div class="overlay">
+    <div class="overlay d-flex align-items-center">
       <div class="container pt-5">
         <div class="row aling-items-center">
-          <div class="col-md-6 offset-md-6 text-center text-lg-rigth">
-            <h1>Verdi Ecuador</h1>
+          <div class="col-md-6  offset-md-7 text-center text-lg-rigth">
+            <h1>Motorcycles Ecuador</h1>
             <p>
               Verdi es una marca de diseñador, creada para todo el mundo!
               queremos que todos vistan a la moda a un precio accesible
             </p>
-            <a href="#" id="boton-alterno" class="btn btn-outline-warning">Quiero ser colaborador</a>
-            <button type="button" class="btn btn-warning m-3">Catalo online</button>
+            <a href="#footer" id="boton-alternodos" class="btn ">Quiero ser colaborador</a>
+           <a href="#productos"><button  type="button" id="boton-alernotres" class="btn">Catalogo online</button></a> 
           </div>
         </div>
       </div>
@@ -81,81 +92,75 @@
   <section id="productos">
     <div class="productos container">
         <div class="row">
-            <div class="col text-center text-uppercase">
+            <div class="col text-center text-uppercase mt-5">
                 <small>Conoce nuestros productos</small>
                 <h2>Productos</h2>
             </div>
         </div>
 
         <div class="row ">
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="col-md-6 col-lg-4 col-sm-12 mb-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <img src="/src/images (9).jpg" class="card-img-top imagen" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Shineray - Moto Utilitaria XY 150-10F | Negro 2022</h5>
+                      <p class="card-text">Precio:$3500</p>
+                        <a href="/html/tarjetauno.html" id="btn-carts" class="btn">Mas Info</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="col-md-6 col-lg-4 col-sm-12  mb-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <img src="/src/images (10).jpg" class="card-img-top imagen" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Factory Bike - Moto FK-370 | 2022 Amarillo</h5>
+                        <p class="card-text">Precio:2500</p>
+                        <a href="/html/tarjetados.html" id="btn-carts" class="btn">Mas Info</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="col-md-6 col-lg-4 col-sm-12  mb-4 ">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <img src="/src/images (2).jpg" class="card-img-top imagen" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Moto Street | 2022 Negro</h5>
+                        <p class="card-text">Precio:$3848</p>
+                        <a href="/html/tarjetatres.html" id="btn-carts" class="btn ">Mas Info</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="col-md-6 col-lg-4 col-sm-12  mb-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <img src="/src/images(12).jpg" class="card-img-top imagen" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Shineray - Moto Utilitaria XY 150-10F | Blanco 2022</h5>
+                        <p class="card-text">Precio:$3581</p>
+                        <a href="/html/tarjetacuatro.html" id="btn-carts" class="btn">Mas Info</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="col-md-6 col-lg-4 col-sm-12  mb-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <img src="/src/images(15).jpg" class="card-img-top imagen" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Shineray - Moto Wolverine 150 | 2022 Blanco</h5>
+                        <p class="card-text">Precio:4500</p>
+                        <a href="/html/tarjetacinco.html" id="btn-carts" class="btn">Mas Info</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="col-md-6 col-lg-4 col-sm-12  mb-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <img src="/src/images(14).jpg" class="card-img-top imagen" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Shineray - Moto Wolverine 150 | 2022 Negro</h5>
+                        <p class="card-text">Precio:$5000</p>
+                        <a href="/html/tarjetaseis.html" id="btn-carts" class="btn">Mas Info</a>
                     </div>
                 </div>
             </div>
@@ -167,14 +172,15 @@
 <section id="evento-marca">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-6 ps-0 pe-0">
-        <img src="https://cdn.pixabay.com/photo/2016/10/16/23/32/fashion-show-1746582__340.jpg" alt="Imagen evento">
+      <div class="col-lg-6 col-md-12 col-sm-12 text-center mt-4 pb-3 ">
+        <img id="img_evento" src="/src/images(33).jpg" alt="Imagen evento">
       </div>
-      <div class="col-12 col-lg-6 text-center mt-4 pb-3">
+      <div class="col-lg-6 col-md-12 col-sm-12 text-center mt-4 pb-3">
         <h2>Evento Especial de Temporada</h2>
         <h3 class="mb-3">Julio-Agosto 2022</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem reiciendis illo sapiente animi iure laboriosam ipsum omnis itaque, facilis doloremque eligendi consequatur dolor asperiores odio facere quibusdam at fugit repudiandae?</p>
-        <a href="#" id="boton-alterno" class="btn btn-outline-warning">Conoce mas...</a>
+        <p>Por un limite de tiempo se obtendra un descuento de 20% en todas las compras realizas del 23 de Julio del 2022 al 13 de Agosto del 2022 ademas si realizas doble compra recibiras un aumento de 10%
+          de descuento en todal 30% de descuento  aprovecha y haz tus pedidos.</p>
+        <a href="/html/tarjetatres.html" id="boton-alterno" class="btn">Conoce mas...</a>
       </div>
     </div>
   </div>
@@ -185,17 +191,18 @@
   <footer id="footer" class="pb-4 pt-4 ">
     <div class="container">
       <div class="row text-center">
-        <div class="col-12 col-lg">
-          <a href="">Preguntas Frecuentes</a>
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+          <a class="bi bi-youtube" href="https://www.youtube.com/user/SUZUKIMOTOFRANCE">  Youtube</a>
         </div>
-        <div class="col-12 col-lg">
-          <a href="">Contactanos</a>
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+          <a class="bi bi-twitter" href="https://twitter.com/moto_venta">  Twitter</a>
         </div>
-        <div class="col-12 col-lg">
-          <a href="">Terminos y Condiciones</a>
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-2 ">
+          <a class="bi bi-facebook" href="https://es-la.facebook.com/YamahaEcuador/">  Facebook</a>
         </div>
-        <div class="col-12 col-lg">
-          <a href="">Trabajo con moto</a>
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+         
+          <a class="bi bi-github" href="https://github.com/Michael7543/Proyecto_Personal">  Git Hub</a>
         </div>
       </div>
     </div>
