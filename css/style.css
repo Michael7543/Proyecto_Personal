@@ -89,7 +89,10 @@
     justify-content: center;
     align-items    : center;
 }
-
+.badge{
+    background-color: #8a897c;
+    
+}
 
 /*SECCION EVENTOS*/
 
@@ -114,6 +117,19 @@
     background-color: #ffffff;
     border: #353535 solid 1px;
 }
+
+
+/*Coloboradores*/
+
+#conviertete-en-colaborador{
+    background-color: #8a897c;
+    color: #353535;
+}
+
+#conviertete-en-colaborador label{
+    color: #353535;
+}
+
 
 
 /*FOOTER*/
